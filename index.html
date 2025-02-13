@@ -10,7 +10,25 @@
   </head>
   
   <body>
-    <h1>Hey there! <br>My name is Cheyenne Frediani-Jost</h1>
+    <div class="navbar">
+      <ul>
+      <li><button class="style-dropdown">Style</button>
+      <div class="dropdown-content">
+        <a href="#">Style 1</a>
+        <a href="#">Style 2</a>
+        <a href="#">Style 3</a>
+      </div>
+      </li>
+        
+      <li><a href="#">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li style="float:right"><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+    
+    <h1>Hey there!<br>My name is Cheyenne Frediani-Jost</h1>
     <p> 
       I'm Computer Science student with a passion for coding, designing and developing web applications, and problem-solving. 
       <br><br>
@@ -21,7 +39,7 @@
     </p>
     <hr>
     
-    <h2>About Me</h2>
+    <h2 id="about">About Me</h2>
     <h3>Who am I?</h3>
     <p>
        I’m a Computer Science undergraduate specializing in full-stack web development, 
@@ -43,7 +61,7 @@
     </p>
     <hr>
     
-    <h2>My Projects</h2>
+    <h2 id="projects">My Projects</h2>
     <h3>Explore my Work</h3>
     <p>
       Below are some of the key projects I’ve built during my studies and independent work. 
@@ -68,7 +86,7 @@
     </p>
     <hr>
     
-    <h2>Contact</h2>
+    <h2 id="contact">Contact</h2>
     <h3>Let's get in touch</h3>
     <p>Feel free to reach out to me for project collaborations, 
       freelance work, or simply to chat about technology! 
