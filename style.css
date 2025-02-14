@@ -1,7 +1,5 @@
 body {
   background-color: lightblue;
-  margin: 0;
-  padding: 0;
 }
 
 h1 {
@@ -10,7 +8,7 @@ h1 {
 }
 
 /* Navbar items */
-ul.navbutton {
+.navbutton {
   list-style-type: none;
   margin: 0;
   padding: 0;
