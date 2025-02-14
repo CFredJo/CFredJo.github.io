@@ -21,7 +21,7 @@ h1 {
   float: left;
 }
 
-li a.navbutton {
+li.navbutton a {
   display: block;
   color: white;
   text-align: center;
