@@ -19,6 +19,7 @@ p {
   margin: 0;
   padding: 0;
   height: 100vh;
+  background-color: #333;
 }
 
 .navbutton {
@@ -26,7 +27,9 @@ p {
   margin: 0;
   padding: 0;
   overflow: auto;
-  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .navbutton li {
