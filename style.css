@@ -13,7 +13,12 @@ p {
 
 /* Navbar items */
 
-ul.navbar {
+.navbar {
+  margin: 0;
+  padding: 0;
+}
+
+.navbutton {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -21,11 +26,11 @@ ul.navbar {
   background-color: #333;
 }
 
-.navbutton {
+.navbutton li {
   float: left;
 }
 
-li.navbutton a {
+.navbutton li a {
   display: block;
   color: white;
   text-align: center;
@@ -34,6 +39,6 @@ li.navbutton a {
 }
 
 /* Change the link color to #111 (black) on hover */
-li a:hover {
+.navbutton li a:hover {
   background-color: #111;
 }
