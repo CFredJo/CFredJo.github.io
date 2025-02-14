@@ -9,7 +9,7 @@ h1 {
 
 /* Navbar items */
   
-ul.navbar {
+.navbar {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -17,7 +17,7 @@ ul.navbar {
   background-color: #333;
 }
 
-li.navbutton {
+.navbutton {
   float: left;
 }
 
