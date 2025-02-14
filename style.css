@@ -1,5 +1,7 @@
 body {
   background-color: lightblue;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
@@ -14,9 +16,9 @@ p {
 /* Navbar items */
 
 .navbar {
-  width:100%
   margin: 0;
   padding: 0;
+  height: 100vh;
 }
 
 .navbutton {
