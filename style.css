@@ -1,10 +1,13 @@
-body {
-  background-color: LavenderBlush;
+* {
+  box-sizing: border-box;
 }
 
-h1 {
-  color: navy;
-  margin-left: 20px;
+body {
+  margin: 0;
+  background-image: url('https://unsplash.com/photos/red-and-white-abstract-painting-Bz_JX1COlrE');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 /* Navbar style */
