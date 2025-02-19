@@ -7,28 +7,68 @@ h1 {
   margin-left: 20px;
 }
 
-/* Navbar items */
+/* Navbar style */
 .navbutton {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #5b5b5b;
 }
 
-li.navbutton {
+.navbutton li {
   float: left;
 }
 
-li.navbutton a {
-  display: block;
+li a, .dropbtn {
+  display: inline-block;
   color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
-li.navbutton a:hover {
-  background-color: #111;
+/*Link Colors*/
+.dropdown:hover .dropbtn {
+  background-color: #ff82A2;
+}
+.homebtn:hover{
+  background-color: #ffe500;
+}
+.aboutbtn:hover{
+  background-color: #22f9eb;
+}
+.projectsbtn:hover{
+  background-color: #a1ff09;
+}
+.contactbtn:hover{
+  background-color: #b108ff;
+}
+
+/* Style Dropdown */
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #5b5b5b;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
