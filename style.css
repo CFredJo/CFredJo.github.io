@@ -75,3 +75,13 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+/* Header style */
+.header {
+color: #5b5b5b;
+border: 5px double #ffe500;
+border-radius: 5px;
+margin: 20px;
+padding-top: 10px;
+padding: 20px;
+}
