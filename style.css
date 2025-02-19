@@ -79,10 +79,10 @@ li.dropdown {
 /* Header style */
 .header {
 color: #5b5b5b;
+background: rgba(255, 255, 255, 0.8);
 border: 5px double #ffe500;
 border-radius: 5px;
 margin: 20px;
 padding-top: 10px;
 padding: 20px;
-opacity: 0.9;
 }
