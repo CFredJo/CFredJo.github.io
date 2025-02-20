@@ -32,21 +32,15 @@ li a, .dropbtn {
 }
 
 /*Link Colors*/
-.dropdown:hover .dropbtn {
-  background-color: #ff82A2;
-}
-.homebtn:hover{
-  background-color: #ffe500;
-}
-.aboutbtn:hover{
-  background-color: #22f9eb;
-}
-.projectsbtn:hover{
-  background-color: #a1ff09;
-}
-.contactbtn:hover{
-  background-color: #b108ff;
-}
+.dropdown:hover .dropbtn {background-color: #ff82A2;}
+
+.homebtn:hover{background-color: #ffe500;}
+
+.aboutbtn:hover{background-color: #22f9eb;}
+
+.projectsbtn:hover{background-color: #a1ff09;}
+
+.contactbtn:hover{background-color: #b108ff;}
 
 /* Style Dropdown */
 li.dropdown {
@@ -79,10 +73,39 @@ li.dropdown {
 /* Header style */
 .header {
 color: #5b5b5b;
-background: rgba(255, 255, 255, 0.8);
+background: #ffffff;
+text-align: center;
 border: 5px double #ffe500;
 border-radius: 5px;
 margin: 20px;
 padding-top: 10px;
 padding: 20px;
+float: left;
+}
+
+.header img{
+float:right;
+width:40%;
+height:auto;
+padding: 25px;
+clip-path: circle(40%);
+}
+
+.header h{
+width:60%
+}
+
+.header p{
+text-align: left;
+text-indent: 1.5em;
+}
+
+/* Responsive Design Elements */
+@media screen and (max-width:600px) {
+  .header {
+    width: 100%;
+  }
+  .header img {
+  padding: 15px;
+  }
 }
