@@ -78,7 +78,6 @@ text-align: center;
 border: 5px double #ffe500;
 border-radius: 5px;
 margin: 20px;
-padding-top: 10px;
 padding: 20px;
 float: left;
 }
@@ -95,17 +94,64 @@ clip-path: circle(40%);
 width:60%
 }
 
-.header p{
+.header h1{
+
+}
+
+.header p, .about p, .projects p{
 text-align: left;
 text-indent: 1.5em;
 }
 
+/* About Section */
+.about{
+color: #5b5b5b;
+background: #ffffff;
+border: 5px double #22f9eb;
+border-radius: 5px;
+margin: 20px;
+padding: 20px;
+float: left;
+}
+
+.about h2 {
+text-align: center;
+font-size: 2.6em;
+margin: 10px;
+}
+
+.about h3{
+text-align: center;
+font-size: 1.6em;
+margin: 10px;
+}
+
+/* Projects Section */
+.projects{
+color: #5b5b5b;
+background: #ffffff;
+border: 5px double #a1ff09;
+border-radius: 5px;
+margin: 20px;
+padding: 20px;
+float: left;
+}
+
+.projects h2 {
+text-align: center;
+font-size: 2.6em;
+margin: 10px;
+}
+
+.projects h3{
+text-align: center;
+font-size: 1.6em;
+margin: 10px;
+}
+
 /* Responsive Design Elements */
 @media screen and (max-width:600px) {
-  .header {
-    width: 100%;
-  }
   .header img {
-  padding: 15px;
+  padding: 20px;
   }
 }
