@@ -17,6 +17,10 @@ body {
   padding: 0;
   overflow: hidden;
   background-color: #5b5b5b;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
 }
 
 .navbutton li {
