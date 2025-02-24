@@ -153,6 +153,18 @@ font-size: 1.6em;
 margin: 10px;
 }
 
+/* Footer style */
+.footer {
+color: #5b5b5b;
+background: #ffffff;
+text-align: center;
+border-top-style:double;
+border-width: 5px;
+border-color: #b108ff;
+margin-top: 20px;
+float: left;
+}
+
 /* Responsive Design Elements */
 @media screen and (max-width:600px) {
   .header img {
