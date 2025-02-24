@@ -4,6 +4,7 @@
 
 body {
   margin: 0;
+  padding-top: 60px;
   background-image: url('rain_background.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -15,12 +16,11 @@ body {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
   background-color: #5b5b5b;
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 9999;
+  z-index: 2;
 }
 
 .navbutton li {
@@ -51,7 +51,7 @@ li.dropdown {
   display: inline-block;
 }
 
-.dropdown-content {
+.dropdown-content{
   display: none;
   position: absolute;
   background-color: #f9f9f9;
