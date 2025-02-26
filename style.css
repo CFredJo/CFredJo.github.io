@@ -11,6 +11,23 @@ body {
   background-size: cover;
 }
 
+p {
+text-align: left;
+text-indent: 1.5em;
+}
+
+/* Accent Letter Color Scheme */
+#pink {color: #ff82A2;}
+
+#yellow {color: #ffe500;}
+
+#cyan {color: #22f9eb;}
+
+#lime {color: #a1ff09;}
+
+#purple {color: #b108ff;}
+
+
 /* Navbar style */
 .navbutton {
   list-style-type: none;
@@ -35,23 +52,23 @@ li a, .dropbtn {
   text-decoration: none;
 }
 
-/* Navbar bookmark anchor offsets */
+/* Navbar - bookmark anchor offsets */
 #home, #about, #projects{
 scroll-margin-top: 80px;
 }
 
-/*Link Colors*/
+/* Link Colors */
 .dropdown:hover .dropbtn {background-color: #ff82A2;}
 
-.homebtn:hover{background-color: #ffe500;}
+.homebtn:hover, .mailbtn:hover {background-color: #ffe500;}
 
-.aboutbtn:hover{background-color: #22f9eb;}
+.aboutbtn:hover, .linkedinbtn:hover {background-color: #22f9eb;}
 
-.projectsbtn:hover{background-color: #a1ff09;}
+.projectsbtn:hover, .githubbtn:hover {background-color: #a1ff09;}
 
 .contactbtn:hover{background-color: #b108ff;}
 
-/* Style button Dropdown */
+/* Dropdown Style */
 li.dropdown {
   display: inline-block;
 }
@@ -60,7 +77,7 @@ li.dropdown {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
-  min-width: 160px;
+  min-width: 110px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
@@ -101,11 +118,6 @@ clip-path: circle(40%);
 
 .header h{
 width:60%
-}
-
-.header p, .about p, .projects p{
-text-align: left;
-text-indent: 1.5em;
 }
 
 /* About Section */
@@ -177,10 +189,20 @@ font-size: 1.3em;
 }
 
 .footer p {
-margin: 10px;
+margin: 20px;
 padding: 20px
 text-align: left;
 text-indent: 1.5em;
+}
+
+.footer li {
+  display: inline-block;
+  color: #ffffff;
+  background: #5b5b5b;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  clip-path: circle(40%);
 }
 
 /* Responsive Design Elements */
