@@ -18,7 +18,7 @@
             <a href="#">
             <span id="pink">C</span>o<span id="yellow">l</span><span id="cyan">o</span>r<span id="lime">f</span><span id="purple">u</span>l
             </a>
-            <a href="#">Style 2</a>
+            <a href="#" id="styletog">Style 2</a>
           </div>
         </li>
         <li class="homebtn"><a href="#home">Home</a></li>
@@ -111,7 +111,22 @@
     <li class="linkedinbtn"><a href="http://www.linkedin.com/in/cheyenne-frediani-jost-01aa51230"><span class="fa-brands fa-linkedin"></span></a></li>
     <li class="githubbtn"><a href="https://github.com/CFredJo"><span class="fa-brands fa-github"></span></a></li>
     </ul>
-    
     </div>
+    
+    <script>
+
+      document.getElementById('styletog').addEventListener('click', function() {
+        const stylesheet = document.getElementById('stylesheet');
+        if(stylesheet.getAttribute('href') === 'style.css') 
+        {
+          stylesheet.setAttribute('href', 'style2.css');
+        } 
+        else 
+        {
+        stylesheet.setAttribute('href', 'style.css');
+        }
+      });
+    </script>
+    
   </body>
 </html>
