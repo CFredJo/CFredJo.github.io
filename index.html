@@ -7,6 +7,15 @@
     <script src="https://kit.fontawesome.com/615acd3851.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <title>CFJ Web Portfolio Main Page</title>
+
+    <script>
+        function toggleTheme(value) {
+            // Obtains the name of the stylesheet as parameter and sets it using href
+            let sheets = document
+                .getElementsByTagName('link');
+            sheets[0].href = value;
+        }
+    </script>
   </head>
 
   <body>
@@ -15,10 +24,10 @@
         <li class="dropdown">
           <a href="javascript:void(0)"class="dropbtn">Style</a>
           <div class="dropdown-content">
-            <a href="#">
+            <a href="#" onclick="toggleTheme('style.css')">
             <span id="pink">C</span>o<span id="yellow">l</span><span id="cyan">o</span>r<span id="lime">f</span><span id="purple">u</span>l
             </a>
-            <a href="#" id="styletog">Style 2</a>
+            <a href="#" onclick="toggleTheme('style2.css')">Style 2</a>
           </div>
         </li>
         <li class="homebtn"><a href="#home">Home</a></li>
@@ -112,21 +121,6 @@
     <li class="githubbtn"><a href="https://github.com/CFredJo"><span class="fa-brands fa-github"></span></a></li>
     </ul>
     </div>
-    
-    <script>
-
-      document.getElementById('styletog').addEventListener('click', function() {
-        const stylesheet = document.getElementById('stylesheet');
-        if(stylesheet.getAttribute('href') === 'style.css') 
-        {
-          stylesheet.setAttribute('href', 'style2.css');
-        } 
-        else 
-        {
-        stylesheet.setAttribute('href', 'style.css');
-        }
-      });
-    </script>
     
   </body>
 </html>
