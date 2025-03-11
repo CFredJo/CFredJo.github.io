@@ -16,15 +16,11 @@ text-align: left;
 text-indent: 1.5em;
 }
 
-/* Accent Letter Color Scheme */
+/* Accent Color Id and Hex */
 #pink {color: #ff82A2;}
-
 #yellow {color: #ffe500;}
-
 #cyan {color: #22f9eb;}
-
 #lime {color: #a1ff09;}
-
 #purple {color: #b108ff;}
 
 
@@ -40,8 +36,12 @@ text-indent: 1.5em;
   z-index: 2;
 }
 
-.navbutton li {
+.navbutton li{
   float: left;
+}
+
+.navbutton .contactbtn {
+  float: right;
 }
 
 li a, .dropbtn {
@@ -59,13 +59,9 @@ scroll-margin-top: 80px;
 
 /* Link Colors */
 .dropdown:hover .dropbtn {background-color: #ff82A2;}
-
 .homebtn:hover, .mailbtn:hover {background-color: #ffe500;}
-
 .aboutbtn:hover, .linkedinbtn:hover {background-color: #22f9eb;}
-
 .projectsbtn:hover, .githubbtn:hover {background-color: #a1ff09;}
-
 .contactbtn:hover{background-color: #b108ff;}
 
 /* Dropdown Style */
