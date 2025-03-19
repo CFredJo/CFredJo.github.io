@@ -1,10 +1,9 @@
-
 * {
     padding: 0; margin: 0;
 }
 
 body {
-background-color: #fcdede;
+background-color: #94CEEA;
 }
 
 /* Navbar offset */
@@ -32,9 +31,10 @@ li a, .dropbtn {
   text-decoration: none;
 }
 
-.navbutton li:hover {
+.navbutton li:hover{
   background-color: #7FBDFE;
   width: 100%;
+  text-align: left;
 }
 
 /* Dropdown Style */
@@ -58,7 +58,9 @@ li.dropdown {
   text-align: left;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1;}
+.dropdown-content a:hover {
+background-color: #f1f1f1;
+}
 
 .dropdown:hover .dropdown-content {
   display: block;
@@ -71,36 +73,148 @@ a #cyan {color: #22f9eb;}
 a #lime {color: #a1ff09;}
 a #purple {color: #b108ff;}
 
+/* Accent Style2 Color Id and Hex */
+#navy {color: #234899;}
+#sky {color: #94CEEA;}
+#salmon {color: #f0afbe;}
+#magenta {color: #f06c84;}
+
 /* Header Style */
 .hero {
-background-image: url('banner.png');
+background-image: url('img_chania.jpg');
 background-position: center;
-background-size: cover;
+background-size: contain;
 border-bottom-style: solid;
 margin-bottom: 20px;
 overflow: hidden;
+border-color: #234899;
+border-width: 7px;
 }
 
 .header h1 {
   color: white;
   text-align: center;
-  padding: 25px;
+  padding: 50px;
+  width:90%;
 }
 
 .header img{
 float: right;
 width:40%;
+max-width:300px;
 height:auto;
 padding: 25px;
 clip-path: circle(40%);
 }
 
 .header p{
-  color: white;
+  color: #234899;
+  background-color: white;
   text-align: center;
-  padding: 20px;
-  margin: 20px;
-  background: #7FBDFE;
+  padding: 10px;
+  margin: auto;
+  width: 80%;
   border: 7px double #f0afbe;
   border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+/* About Style */
+.about {
+  color: #234899;
+  text-align: center;
+  background-color: white;
+  border-color:#f0afbe;
+  border-top-style: double;
+  border-bottom-style: double;
+  border-width: 7px;
+  margin-left: 100px;
+  margin-right: 0px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.about ul{
+list-style-type: none;
+}
+
+.about h2 {
+color: #f0afbe;
+text-align: center;
+font-size: 2.6em;
+margin: 10px;
+}
+
+.about h3{
+text-align: center;
+font-size: 1.6em;
+margin: 10px;
+}
+
+/* Projects Section */
+.projects{
+  color: #234899;
+  text-align: center;
+  background-color: white;
+  border-color:#f0afbe;
+  border-top-style: double;
+  border-bottom-style: double;
+  border-width: 7px;
+  margin-left: 100px;
+  margin-right: 0px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.projects h2 {
+text-align: center;
+font-size: 2.6em;
+margin: 10px;
+}
+
+.projects h3{
+text-align: center;
+font-size: 1.6em;
+margin: 10px;
+}
+
+/* Footer style */
+.footer {
+color: #234899;
+background: #ffffff;
+text-align: center;
+border-top-style:double;
+border-width: 7px;
+border-color: #f0afbe;
+margin-top: 40px;
+float: left;
+}
+
+.footer h2 {
+margin: 10px;
+font-size: 2.6em;
+}
+
+.footer h3 {
+margin: 0px;
+font-size: 1.3em;
+}
+
+.footer p {
+margin: 20px;
+padding: 20px
+text-align: left;
+text-indent: 1.5em;
+}
+
+.footer li {
+  display: inline-block;
+  color: #ffffff;
+  background: #f06c84;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  clip-path: circle(40%);
 }
