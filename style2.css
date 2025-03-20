@@ -3,7 +3,10 @@
 }
 
 body {
-background-color: #94CEEA;
+    background-image: url('blossom_background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 /* Navbar offset */
@@ -81,9 +84,7 @@ a #purple {color: #b108ff;}
 
 /* Header Style */
 .hero {
-background-image: url('banner.png');
-background-position: center;
-background-size: contain;
+background-color: #94CEEA;
 border-bottom-style: solid;
 margin-bottom: 20px;
 overflow: hidden;
