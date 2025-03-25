@@ -87,7 +87,7 @@ a #purple {color: #b108ff;}
 
 /* Header Style */
 .hero {
-background-color:rgba(255, 255, 255, 0.8);
+background-color:rgba(255, 255, 255, 0.6);
 border-bottom-style: solid;
 margin-bottom: 70px;
 overflow: hidden;
@@ -96,7 +96,7 @@ border-width: 7px;
 }
 
 .header h1 {
-  color: #f0afbe;
+  color: #ffffff;
   text-align: center;
   padding: 50px;
   width:90%;
