@@ -28,13 +28,14 @@ margin-left: 100px;
   overflow: auto;
 }
 
-li a, .dropbtn {
+.navbutton li a {
   display: inline-block;
   color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
+
 
 .navbutton li:hover{
   background-color: #7FBDFE;
@@ -82,20 +83,20 @@ a #purple {color: #b108ff;}
 #navy {color: #234899;}
 #sky {color: #94CEEA;}
 #salmon {color: #f0afbe;}
-#magenta {color: #f06c84;}
+#magenta {color: #eb6a82;}
 
 /* Header Style */
 .hero {
-background-color: #94CEEA;
+background-color:rgba(255, 255, 255, 0.3);
 border-bottom-style: solid;
-margin-bottom: 20px;
+margin-bottom: 70px;
 overflow: hidden;
 border-color: #234899;
 border-width: 7px;
 }
 
 .header h1 {
-  color: white;
+  color: #f0afbe;
   text-align: center;
   padding: 50px;
   width:90%;
@@ -133,7 +134,7 @@ clip-path: circle(40%);
   border-width: 7px;
   margin-left: 100px;
   margin-right: 0px;
-  margin-top: 20px;
+  margin-top: 70px;
   margin-bottom: 20px;
   padding: 20px;
 }
@@ -166,12 +167,13 @@ margin: 10px;
   border-width: 7px;
   margin-left: 100px;
   margin-right: 0px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 70px;
+  margin-bottom: 30px;
   padding: 20px;
 }
 
 .projects h2 {
+color: #f0afbe;
 text-align: center;
 font-size: 2.6em;
 margin: 10px;
@@ -181,6 +183,24 @@ margin: 10px;
 text-align: center;
 font-size: 1.6em;
 margin: 10px;
+}
+
+.projects li{
+text-align: left;
+margin-left: 20px;
+margin-bottom: 5px;
+}
+
+.projects p{
+margin-bottom: 20px;
+}
+
+.projects a{
+color: #94CEEA;
+}
+
+.projects a:hover{
+color: #eb6a82;
 }
 
 /* Footer style */
@@ -196,6 +216,7 @@ float: left;
 }
 
 .footer h2 {
+color: #f0afbe;
 margin: 10px;
 font-size: 2.6em;
 }
@@ -215,9 +236,13 @@ text-indent: 1.5em;
 .footer li {
   display: inline-block;
   color: #ffffff;
-  background: #f06c84;
+  background: #eb6a82;
   text-align: center;
-  padding: 10px 10px;
+  padding: 30px 30px;
   text-decoration: none;
   clip-path: circle(40%);
+}
+
+.footer li:hover{
+background: #f0afbe;
 }
