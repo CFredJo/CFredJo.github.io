@@ -49,8 +49,8 @@ a #magenta {color: #eb6a82;}
   float: right;
 }
 
-li a, .dropbtn {
-  display: inline-block;
+.navbar li a {
+  display: block;
   color: white;
   text-align: center;
   padding: 14px 16px;
@@ -71,7 +71,7 @@ scroll-margin-top: 80px;
 
 /* Dropdown Style */
 li.dropdown {
-  display: inline-block;
+  display: block;
 }
 
 .dropdown-content{
@@ -165,6 +165,15 @@ margin: 10px;
 text-align: center;
 font-size: 1.6em;
 margin: 10px;
+}
+
+.projects a{
+color: #a1ff09;
+display: inline-block;
+}
+
+.projects a:hover{
+color: #ffe500;
 }
 
 /* Footer style */
