@@ -24,10 +24,10 @@ text-indent: 1.5em;
 #purple {color: #b108ff;}
 
 /* Accent Style2 Color Id and Hex */
-#navy {color: #234899;}
-#sky {color: #94CEEA;}
-#salmon {color: #f0afbe;}
-#magenta {color: #eb6a82;}
+a #navy {color: #234899;}
+a #sky {color: #94CEEA;}
+a #salmon {color: #f0afbe;}
+a #magenta {color: #eb6a82;}
 
 /* Navbar style */
 .navbutton {
