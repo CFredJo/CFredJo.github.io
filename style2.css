@@ -13,11 +13,17 @@ body {
 }
 
 /* === Theme Colors === */
-/* Style 2 - Hanami */
-.navy-accent {color: #234899;}
-.sky-accent {color: #94CEEA;}
-.salmon-accent {color: #f0afbe;}
-.magenta-accent {color: #eb6a82;}
+/* Style 1 - Colorful - only applied to dropdown */
+.dropdown-pink-accent {color: #ff82A2;}
+.dropdown-yellow-accent {color: #ffe500;}
+.dropdown-cyan-accent {color: #22f9eb;}
+.dropdown-lime-accent {color: #a1ff09;}
+.dropdown-purple-accent {color: #b108ff;}
+/* Style 2 - Hanami  - applied to all */
+.navy-accent, .dropdown-navy-accent {color: #234899;}
+.sky-accent, .dropdown-sky-accent {color: #94CEEA;}
+.salmon-accent, .dropdown-salmon-accent {color: #f0afbe;}
+.magenta-accent, .dropdown-magenta-accent {color: #eb6a82;}
 
 /* === Navbar Offsets === */
 .header, .about, .projects, .footer {
