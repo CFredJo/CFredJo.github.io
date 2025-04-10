@@ -25,10 +25,10 @@ p {
 .lime-accent, .dropdown-lime-accent {color: #a1ff09;}
 .purple-accent, .dropdown-purple-accent {color: #b108ff;}
 /* Style 2 - Hanami  - only applied to dropdown */
-.navy-accent {color: #234899;}
-.sky-accent {color: #94CEEA;}
-.salmon-accent {color: #f0afbe;}
-.magenta-accent {color: #eb6a82;}
+.dropdown-navy-accent {color: #234899;}
+.dropdown-sky-accent {color: #94CEEA;}
+.dropdown-salmon-accent {color: #f0afbe;}
+.dropdown-magenta-accent {color: #eb6a82;}
 
 /* === Navbar Container === */
 .navbar {
