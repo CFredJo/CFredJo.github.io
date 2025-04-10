@@ -1,4 +1,6 @@
+/* === Base Resets === */
 * {
+    box-sizing: border-box;
     padding: 0; 
     margin: 0;
 }
@@ -10,27 +12,38 @@ body {
     background-size: cover;
 }
 
-/* Navbar offset */
+/* === Theme Colors === */
+/* Style 2 - Hanami */
+.navy-accent {color: #234899;}
+.sky-accent {color: #94CEEA;}
+.salmon-accent {color: #f0afbe;}
+.magenta-accent {color: #eb6a82;}
+
+/* === Navbar Offsets === */
 .header, .about, .projects, .footer {
 margin-left: 100px;
 }
 
-/* Navbar style */
-.navbutton {
-  height: 100%;
+/* === Navbar List === */
+.navbar {
+  position: fixed;
   width: 100px;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+  height: 100%;
   background-color: #234899;
-  position: fixed; 
   overflow: auto;
 }
 
+.navbutton {
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
 .navbutton li a {
-  display: inline-block;
+  display: block;
   color: white;
-  text-align: center;
+  text-align: left;
   padding: 14px 16px;
   text-decoration: none;
 }
@@ -38,29 +51,23 @@ margin-left: 100px;
 
 .navbutton li:hover{
   background-color: #7FBDFE;
-  width: 100%;
-  text-align: left;
 }
 
-/* Dropdown Style */
-li.dropdown {
-  display: inline-block;
-}
-
+/* === Dropdown === */
 .dropdown-content{
   display: none;
   position: absolute;
   background-color: #f9f9f9;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 0;
+  z-index: 100;
 }
 
-.dropdown-content a {
+/* === Dropdown Links === */
+.navbutton li.dropdown .dropdown-content a {
   color: #5b5b5b;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
-  text-align: left;
 }
 
 .dropdown-content a:hover {
@@ -71,20 +78,7 @@ background-color: #f1f1f1;
   display: block;
 }
 
-/* Accent Style1 Color Id and Hex */
-a #pink {color: #ff82A2;}
-a #yellow {color: #ffe500;}
-a #cyan {color: #22f9eb;}
-a #lime {color: #a1ff09;}
-a #purple {color: #b108ff;}
-
-/* Accent Style2 Color Id and Hex */
-#navy {color: #234899;}
-#sky {color: #94CEEA;}
-#salmon {color: #f0afbe;}
-#magenta {color: #eb6a82;}
-
-/* Header Style */
+/* === Header Style === */
 .hero {
 background-color:rgba(255, 255, 255, 0.6);
 border-bottom-style: solid;
@@ -122,7 +116,7 @@ clip-path: circle(40%);
   margin-bottom: 10px;
 }
 
-/* About Style */
+/* === About Section === */
 .about {
   color: #234899;
   text-align: center;
@@ -155,7 +149,7 @@ font-size: 1.6em;
 margin: 10px;
 }
 
-/* Projects Section */
+/* === Projects Section === */
 .projects{
   color: #234899;
   text-align: center;
@@ -202,7 +196,7 @@ color: #94CEEA;
 color: #eb6a82;
 }
 
-/* Footer style */
+/* === Footer Section === */
 .footer {
 color: #234899;
 background: #ffffff;
