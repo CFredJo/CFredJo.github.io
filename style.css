@@ -18,12 +18,17 @@ p {
 }
 
 /* === Theme Colors === */
-/* Style 1 - Colorful */
-.pink-accent {color: #ff82A2;}
-.yellow-accent {color: #ffe500;}
-.cyan-accent {color: #22f9eb;}
-.lime-accent {color: #a1ff09;}
-.purple-accent {color: #b108ff;}
+/* Style 1 - Colorful - applied to all */
+.pink-accent, .dropdown-pink-accent {color: #ff82A2;}
+.yellow-accent, .dropdown-yellow-accent {color: #ffe500;}
+.cyan-accent, .dropdown-cyan-accent {color: #22f9eb;}
+.lime-accent, .dropdown-lime-accent {color: #a1ff09;}
+.purple-accent, .dropdown-purple-accent {color: #b108ff;}
+/* Style 2 - Hanami  - only applied to dropdown */
+.navy-accent {color: #234899;}
+.sky-accent {color: #94CEEA;}
+.salmon-accent {color: #f0afbe;}
+.magenta-accent {color: #eb6a82;}
 
 /* === Navbar Container === */
 .navbar {
