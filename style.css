@@ -17,18 +17,13 @@ p {
   text-indent: 1.5em;
 }
 
-/* === Accent Color Id and Hex === */
-#pink {color: #ff82A2;}
-#yellow {color: #ffe500;}
-#cyan {color: #22f9eb;}
-#lime {color: #a1ff09;}
-#purple {color: #b108ff;}
-
-/* === Accent Style2 Color Id and Hex === */
-a #navy {color: #234899;}
-a #sky {color: #94CEEA;}
-a #salmon {color: #f0afbe;}
-a #magenta {color: #eb6a82;}
+/* === Theme Colors === */
+/* Style 1 - Colorful */
+.pink-accent {color: #ff82A2;}
+.yellow-accent {color: #ffe500;}
+.cyan-accent {color: #22f9eb;}
+.lime-accent {color: #a1ff09;}
+.purple-accent {color: #b108ff;}
 
 /* === Navbar Container === */
 .navbar {
