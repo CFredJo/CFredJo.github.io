@@ -81,10 +81,17 @@ a #magenta {color: #eb6a82;}
 
 /* === Hover Colors === */
 .dropdown:hover .dropbtn { background-color: #ff82A2; }
-.homebtn:hover    { background-color: #ffe500; }
-.aboutbtn:hover   { background-color: #22f9eb; }
-.projectsbtn:hover { background-color: #a1ff09; }
+.homebtn:hover, .mailbtn:hover { background-color: #ffe500; }
+.aboutbtn:hover, .linkedinbtn:hover { background-color: #22f9eb; }
+.projectsbtn:hover, .githubbtn:hover { background-color: #a1ff09; }
 .contactbtn:hover  { background-color: #b108ff; }
+
+/* Link Colors */
+.dropdown:hover .dropbtn {background-color: #ff82A2;}
+.homebtn:hover, .mailbtn:hover {background-color: #ffe500;}
+.aboutbtn:hover, .linkedinbtn:hover {background-color: #22f9eb;}
+.projectsbtn:hover, .githubbtn:hover {background-color: #a1ff09;}
+.contactbtn:hover{background-color: #b108ff;}
 
 /* === Dropdown === */
 li.dropdown {
