@@ -1,4 +1,3 @@
-/* === Base Resets === */
 * {
   box-sizing: border-box;
 }
@@ -131,9 +130,9 @@ float: left;
 
 .header img{
 float:right;
-width:40%;
+width:30%;
 height:auto;
-padding: 25px;
+padding: 30px;
 clip-path: circle(40%);
 }
 
