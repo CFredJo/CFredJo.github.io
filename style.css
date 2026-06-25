@@ -80,7 +80,7 @@ p {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
-  min-width: 100px;
+  min-width: 80px;
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
@@ -110,7 +110,6 @@ border: 5px double #ffe500;
 border-radius: 5px;
 margin: 20px;
 padding: 20px;
-float: left;
 }
 
 .header img{
@@ -133,7 +132,6 @@ border: 5px double #22f9eb;
 border-radius: 5px;
 margin: 20px;
 padding: 20px;
-float: left;
 }
 
 .about h2 {
@@ -156,7 +154,6 @@ border: 5px double #a1ff09;
 border-radius: 5px;
 margin: 20px;
 padding: 20px;
-float: left;
 }
 
 .projects h2 {
@@ -179,7 +176,6 @@ display: inline-block;
 .projects a:hover{
 color: #ffe500;
 }
-
 /* === Footer style === */
 .footer {
 color: #5b5b5b;
@@ -189,7 +185,6 @@ border-top-style:double;
 border-width: 5px;
 border-color: #b108ff;
 margin-top: 40px;
-display: inline-block;
 }
 
 .footer h2 {
