@@ -112,24 +112,34 @@ margin: 20px;
 padding: 20px;
 }
 
-.header img{
-float:right;
-max-height: 250px;
-clip-path: circle(40%);
+/* === Hero Layout === */ 
+.hero { 
+display: flex; 
+align-items: center; 
+justify-content: center; 
+gap: 10px; 
+margin-bottom: 0px; 
 }
 
-.header h1{
-float: left;
-width: 66%;
-display: inline-block;
+/* Hero Image */ 
+.hero img { 
+width: 40%; 
+min-width: 280px;
+max-width: 480px; 
+height: auto; 
+clip-path: circle(40%); 
 }
 
-.header p{
-clear: both;
+/* Hero Heading */ 
+.hero h1 { 
+width: 60%; 
+text-align: center; 
+line-height: 1.2; 
+font-size: 2.4em; 
 }
 
 /* === About Section === */
-.about{
+.about {
 color: #5b5b5b;
 background: #ffffff;
 border: 5px double #22f9eb;
@@ -144,14 +154,14 @@ font-size: 2.6em;
 margin: 10px;
 }
 
-.about h3{
+.about h3 {
 text-align: center;
 font-size: 1.6em;
 margin: 10px;
 }
 
 /* === Projects Section === */
-.projects{
+.projects {
 color: #5b5b5b;
 background: #ffffff;
 border: 5px double #a1ff09;
@@ -166,18 +176,18 @@ font-size: 2.6em;
 margin: 10px;
 }
 
-.projects h3{
+.projects h3 {
 text-align: center;
 font-size: 1.6em;
 margin: 10px;
 }
 
-.projects a{
+.projects a {
 color: #a1ff09;
 display: inline-block;
 }
 
-.projects a:hover{
+.projects a:hover {
 color: #ffe500;
 }
 /* === Footer style === */
@@ -224,8 +234,17 @@ font-size: 18px;
 }
 
 /* === Responsive Design Elements === */
-@media screen and (max-width:600px) {
-  .header img {
-  padding: 20px;
+  @media screen and (max-width: 600px) { 
+  .hero { 
+  flex-direction: column; 
+  gap: 10px; 
+  } 
+  .hero img { 
+  width: 60%; 
+  max-width: 250px; 
+  } 
+  .hero h1 { 
+  width: 100%; 
+  font-size: 1.7rem; 
   }
-}
+  }
