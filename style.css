@@ -125,7 +125,7 @@ margin-bottom: 0px;
 .hero img { 
 width: 40%; 
 min-width: 280px;
-max-width: 480px; 
+max-width: 380px; 
 height: auto; 
 clip-path: circle(40%); 
 }
